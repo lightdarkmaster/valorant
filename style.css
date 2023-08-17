@@ -22,6 +22,12 @@ body {
     cursor: pointer;
 }
 
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
 ul {
     display: flex;
     margin: auto;
