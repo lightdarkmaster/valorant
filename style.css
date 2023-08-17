@@ -43,6 +43,7 @@ li {
 li:hover {
     background: rgba(255, 245, 100, 0.683);
     border: 0px;
+    border-bottom: 2px solid #262626;
 }
 
 .dropdown-content {
