@@ -119,23 +119,24 @@ body {
 .login__input:focus,
 .login__input:hover {
     outline: none;
-    border-bottom-color: #6A679E;
+    border-bottom-color: #ff4646;
 }
 
 .login__submit {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.738);
     font-size: 14px;
+    font-weight: bold;
     margin-top: 30px;
     padding: 16px 20px;
     border-radius: 26px;
-    border: 1px solid #D4D3E8;
+    border: 1px solid #ff3b05;
     text-transform: uppercase;
     font-weight: 700;
     display: flex;
     align-items: center;
     width: 100%;
-    color: #4C489D;
-    box-shadow: 0px 2px 2px #5C5696;
+    color: #c43232;
+    box-shadow: 0px 2px 2px #96565e;
     cursor: pointer;
     transition: .2s;
 }
@@ -143,14 +144,14 @@ body {
 .login__submit:active,
 .login__submit:focus,
 .login__submit:hover {
-    border-color: #6A679E;
+    border-color: #9e8567;
     outline: none;
 }
 
 .button__icon {
     font-size: 24px;
     margin-left: auto;
-    color: #7875B5;
+    color: #b57575;
 }
 
 .social-login {
@@ -173,7 +174,7 @@ body {
     padding: 20px 10px;
     color: #fff;
     text-decoration: none;
-    text-shadow: 0px 0px 8px #7875B5;
+    text-shadow: 0px 0px 8px #b57575;
 }
 
 .social-login__icon:hover {
