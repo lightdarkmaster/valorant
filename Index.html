@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="js/main.js"></script>
 
     <!---Icon-->
     <link href="img/valorant_logo.png" rel="icon">
@@ -20,11 +21,15 @@
             <li><a href="https://chan-valorant.netlify.app/">Home</a></li>
             <li><a href="login.html">News</a></li>
             <div class="download">
-                <li><a href="login.html">Download</a></li>
+                <li><a href="#">Download</a></li>
                 <div class="dropdown-content">
-                    <li>Windows</li>
-                    <li>Linux</li>
-                    <li>Mac</li>
+                    <select id="download">
+                        <option value="">Select</option>
+                        <option value="windows">Windows</option>
+                        <option value="macos">Mac</option>
+                        <option value="linux">Linux</option>
+                        <option value="others">Others</option>
+                      </select>
                 </div>
             </div>
             <li><a href="https://barbosachristian.github.io/">About Us</a></li>
@@ -36,6 +41,8 @@
     </div>
 
     <button class="play">Download Now</button>
+
+    <p></p>
 </body>
 
 </html>
